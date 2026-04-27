@@ -1,0 +1,14 @@
+n=input()
+g=input()
+a=int(input())
+if a<18 :
+    print("not eligible to vote")
+elif a>60 :
+    print("eligible to vote")
+else:
+    if g=="M" and a>30:
+        print("eligible to vote")
+    elif g=="F" and a>18:
+        print("eligible to vote")
+    else:
+        print("not eligible to vote")
