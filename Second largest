@@ -1,0 +1,18 @@
+a=int(input())
+b=int(input())
+c=int(input())
+if a>b and a>c :
+    if b>c:
+        print("the second large number",b)
+    else:
+        print("the second large number",c)
+elif b>a and b>c :
+    if a>c:
+        print("the second large number",a)
+    else:
+        print("the second large number",c)
+else:
+    if b>c:
+        print("the second large number",a)
+    else:
+        print("the second large number",b)
