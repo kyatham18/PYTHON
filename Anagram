@@ -1,0 +1,10 @@
+a=input("Enter string1: ")
+b=input("Enter string2: ")
+c="".join(i for i in a if i.isalnum())
+d="".join(j for j in b if j.isalnum())
+e=sorted(c)
+f=sorted(d)
+if e==f:
+    print("ANAGRAM")
+else:
+    print("NOT ANAGRAM")
