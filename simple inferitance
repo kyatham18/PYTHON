@@ -1,0 +1,11 @@
+class india:
+    def show(self):
+        print("Delhi")
+class telangana(india):
+    def cm(self):
+        print("Revanth Reddy")
+a=india()
+a.show()
+b=telangana()
+b.cm()
+b.show()
