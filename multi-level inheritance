@@ -1,0 +1,17 @@
+class india:
+    def show(self):
+        print("Delhi")
+class telangana(india):
+    def language(self):
+        print("Telugu")
+class ap(telangana):
+    def cm(self):
+        print("Chandra Babu Naidu")
+a=india()
+a.show()
+b=telangana()
+b.language()
+c=ap()
+c.cm()
+c.language()
+c.show()
