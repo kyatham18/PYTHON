@@ -1,0 +1,13 @@
+a=open("sample1.txt",'r')
+l=[]
+res=a.readlines()
+while res:
+    l.append(res)
+    res=a.readlines()
+a.close()
+print(l)
+
+____________________________________________________
+
+sample1:
+hello ra prasanna 
