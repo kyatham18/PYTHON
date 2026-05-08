@@ -1,0 +1,14 @@
+# precentile for overall precentile
+import numpy as np
+a=[20,21,33,57,34,56,94,43]
+res=np.percentile(a,90)
+print(res)
+
+
+-----------------------------------------------------
+# precentile for number in overall numbers
+
+from scipy import stats
+a=[10,20,30,40,50,60]
+res=stats.percentileofscore(a,11)
+print(res)
